@@ -1,90 +1,70 @@
-# 🎬 MovieNightHQ
+<div align="center">
 
-### One universe. Every screen. Your next favorite story.
+  <img src="https://raw.githubusercontent.com/MovieNightHQ/Movie-Night-App/main/assets/images/icon.png" alt="MovieNightHQ logo" width="150" />
 
-**MovieNightHQ** is the home of the Movie Night ecosystem — a collection of applications built to make discovering, organizing, and enjoying movies and TV shows a better experience.
+  <h1>🎬 MovieNightHQ</h1>
 
-From web and mobile to desktop, we're building a connected entertainment experience under one brand.
+  <h3>One universe. Every screen. Your next favorite story.</h3>
 
-<p align="center">
-  <a href="https://github.com/MovieNightHQ">
-    <img src="https://img.shields.io/badge/GitHub-MovieNightHQ-181717?style=for-the-badge&logo=github" alt="GitHub Organization" />
-  </a>
-  <a href="https://movienighthub.vercel.app">
-    <img src="https://img.shields.io/badge/Website-Movie%20Night-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Movie Night Website" />
-  </a>
-</p>
+  <p>Discover, organize, and enjoy movies and TV across a connected family of open-source apps.</p>
 
----
+  <a href="https://github.com/MovieNightHQ/Movie-Night"><strong>🌐 Web</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MovieNightHQ/Movie-Night-App"><strong>📱 Mobile</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/MovieNightHQ/Movie-Night-Desktop"><strong>🖥️ Desktop</strong></a>
+  &nbsp;·&nbsp;
+  <br /><br />
 
-## 🍿 About Movie Night
+  <a href="https://github.com/MovieNightHQ"><img src="https://img.shields.io/badge/Projects-3-181717?style=for-the-badge&logo=github" alt="Three MovieNightHQ projects" /></a>
+  <a href="https://opensource.org/license/mit"><img src="https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge" alt="MIT License" /></a>
 
-Movie Night is an evolving entertainment ecosystem focused on making your next watch easier to discover and enjoy.
-
-* 🎥 **Discover** movies, TV shows, trending titles, and hidden gems.
-* ✨ **Personalize** your experience with AI-powered recommendations.
-* 📚 **Organize** your watchlist and keep track of what you've watched.
-* 📱 **Enjoy across platforms** with dedicated web, mobile, and desktop experiences.
-
-## 🚀 Our Applications
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>🌐 Movie Night Web</h3>
-      Explore movies and TV shows, discover new favorites, and manage your watchlist through the web experience.
-      <br /><br />
-      <a href="https://github.com/MovieNightHQ/Movie-Night"><strong>Explore Repository →</strong></a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>📱 Movie Night Mobile</h3>
-      A mobile-first entertainment experience built with React Native and Expo.
-      <br /><br />
-      <a href="https://github.com/MovieNightHQ/Movie-Night-App"><strong>Explore Repository →</strong></a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🖥️ Movie Night Desktop</h3>
-      Bring the Movie Night experience to desktop with a dedicated application.
-      <br /><br />
-      <a href="https://github.com/MovieNightHQ/Movie-Night-Desktop"><strong>Explore Repository →</strong></a>
-    </td>
-  </tr>
-</table>
-
-## 🧰 Technology
-
-Our applications use technologies suited to each platform, including:
-
-* **Web:** Next.js, React, TypeScript, and Tailwind CSS
-* **Mobile:** React Native and Expo
-* **Backend & Data:** Supabase
-* **State Management:** Zustand
-* **AI:** Google Gemini
-
-See each repository for its specific stack, setup instructions, and documentation.
-
-## 🌙 Our Vision
-
-We're building a cohesive entertainment ecosystem that brings discovery and organization together across platforms.
-
-**One brand. Three platforms. A better movie night.**
-
-## 🤝 Contributing
-
-Have an idea or found an issue?
-
-1. Explore the relevant repository.
-2. Review its documentation and contribution guidelines.
-3. Open an issue to discuss your idea or report a problem.
-4. Submit a pull request with your improvements.
-
-## 📬 Contact
-
-For questions, suggestions, or collaboration, open an issue in the relevant repository or contact the organization maintainers through GitHub.
+</div>
 
 ---
 
-<p align="center">
+## 🍿 Welcome to MovieNightHQ
+
+MovieNightHQ is building a connected entertainment experience for finding something great to watch and keeping your viewing life organized. Browse films and series, get recommendations, save favorites, and use the right app for the screen in front of you.
+
+## 🚀 Choose your experience
+
+| Project | Made for | Highlights |
+| --- | --- | --- |
+| [🌐 Movie Night Web](https://github.com/MovieNightHQ/Movie-Night) | Browser, Android install, and PWA | Explore movies and TV, search and filter, get NightGuide suggestions, and manage playlists. |
+| [📱 Movie Night Mobile](https://github.com/MovieNightHQ/Movie-Night-App) | iOS and Android | Discover titles on the go, chat with NightGuide, and keep a personal library across guest and signed-in use. |
+| [🖥️ Movie Night Desktop](https://github.com/MovieNightHQ/Movie-Night-Desktop) | Windows | Explore with a desktop shell, keyboard shortcuts, playlists, and a quick-search palette. |
+
+<details>
+  <summary><strong>How the projects fit together</strong></summary>
+
+  The web, mobile, and desktop apps bring the discovery and watchlist experience to different screens. Together, they support one movie-night workflow: **discover → save → organize → enjoy**.
+
+</details>
+
+## 🧰 Shared ideas, platform-specific stacks
+
+Each repository documents its own setup, environment variables, architecture, and release process. The projects share a common movie-discovery workflow but target different screens with different stacks:
+
+- **Web**: **Next.js**, **React**, **Tailwind CSS**, **Supabase**, **TMDB**, and **Google Gemini**
+- **Mobile**: **Expo** and **React Native** for iOS/Android, with **TypeScript**, **Supabase**, and local SQLite storage
+- **Desktop**: **Next.js + React + Tailwind** inside a **Python + PyWebView** shell, packaged for Windows as a standalone executable
+
+Visit a project README for its exact requirements and configuration.
+
+## 🤝 Contribute
+
+MovieNightHQ welcomes ideas, bug reports, and improvements. Start by opening the relevant project above, reading its setup instructions, and checking its issues or contribution guidance. Please do not include API keys, service-role credentials, or other secrets in an issue or pull request.
+
+## 📜 Open-source license
+
+The three public software repositories listed above and this organization-profile repository are released under the **MIT License**. MIT permits use, copying, modification, distribution, sublicensing, and sale, provided the copyright and permission notice are included with copies or substantial portions. It is provided **“as is,” without warranty**, and the authors are not liable for claims or damages. See the [organization profile license](../LICENSE) or the `LICENSE` file in each app repository for the complete terms.
+
+The MIT license does not replace the terms for third-party software, APIs, datasets, movie artwork, trademarks, or other material included or referenced by a project. Those remain subject to their respective owners' terms. MovieNightHQ projects that use TMDB are not endorsed or certified by TMDB.
+
+---
+
+<div align="center">
   <strong>MovieNightHQ</strong><br />
   Made for people who love a good story. 🎬
-</p>
+</div>
